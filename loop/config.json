@@ -1,0 +1,28 @@
+{
+  "providers": ["Microsoft", "Google", "GitHub Copilot", "xAI Grok", "DeepSeek", "Ollama", "Anthropic Claude", "Hugging Face", "AWS", "NVIDIA"],
+  "min_opportunities": 5,
+  "budget": {
+    "max_searches": 10,
+    "max_fetches": 12,
+    "max_usd_per_run": 2.0
+  },
+  "max_checker_rounds": 6,
+  "tone": {
+    "hype_words": {
+      "insane": "notable",
+      "crazy": "remarkable",
+      "hack": "shortcut",
+      "guaranteed": "designed",
+      "mind-blowing": "impressive",
+      "jaw-dropping": "impressive",
+      "game-changer": "strong step forward",
+      "must-have": "valuable",
+      "cheap": "low-cost",
+      "omg": ""
+    },
+    "acronyms": ["GITHUB", "NVIDIA", "AWS", "LLM", "LLMS", "API", "SKILLS", "README"],
+    "max_sentence_words": 40,
+    "max_exclamations": 2,
+    "motivational_close": "> 🚀 **One course this week is one more door open next week. Pick one, start today, and share your badge when you earn it.**"
+  }
+}
