@@ -4,7 +4,8 @@
   "budget": {
     "max_searches": 10,
     "max_fetches": 12,
-    "max_usd_per_run": 2.0
+    "max_usd_per_run": 2.5,
+    "model": "sonnet"
   },
   "max_checker_rounds": 6,
   "tone": {

@@ -23,8 +23,12 @@ Remove-Item Env:ANTHROPIC_API_KEY -ErrorAction SilentlyContinue
 $claude = (Get-Command claude -ErrorAction SilentlyContinue).Source
 if (-not $claude) { $claude = Join-Path $env:USERPROFILE ".local\bin\claude.exe" }
 
+# Lean session: no skills, no MCP servers (the global setup adds ~50k context tokens per run),
+# and a mid-tier model, which is plenty for search-and-summarise. The budget cap is the hard stop.
 & $claude -p $prompt `
+    --model $config.budget.model `
     --max-budget-usd $config.budget.max_usd_per_run `
+    --disable-slash-commands --strict-mcp-config --mcp-config '{\"mcpServers\":{}}' `
     --allowedTools "WebSearch" "WebFetch" "Read" "Write" "Glob" "Bash(python loop/certloop.py:*)" `
     2>&1 | Out-File -FilePath $log -Append -Encoding utf8
 
