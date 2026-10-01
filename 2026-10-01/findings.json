@@ -1,0 +1,129 @@
+{
+  "week": "2026-10-01",
+  "budget": {
+    "searches": 7,
+    "fetches": 6
+  },
+  "providers_searched": [
+    {
+      "provider": "Microsoft",
+      "status": "found",
+      "note": "Free Microsoft Learn paths; AI Skills Fest 2026 free-voucher window closed on 12 June 2026"
+    },
+    {
+      "provider": "Google",
+      "status": "found",
+      "note": "Google Skills (formerly Cloud Skills Boost) free intro GenAI courses with badges"
+    },
+    {
+      "provider": "GitHub Copilot",
+      "status": "found",
+      "note": "Official free prep on Microsoft Learn; GH-300 exam itself is paid"
+    },
+    {
+      "provider": "xAI Grok",
+      "status": "none-official",
+      "note": "No official xAI certification found; only third-party courses exist"
+    },
+    {
+      "provider": "DeepSeek",
+      "status": "none-official",
+      "note": "No official DeepSeek certification found; only third-party courses exist"
+    },
+    {
+      "provider": "Ollama",
+      "status": "none-official",
+      "note": "No official Ollama certification or learning program found"
+    },
+    {
+      "provider": "Anthropic Claude",
+      "status": "found",
+      "note": "Anthropic Academy on Skilljar: free courses with certificates"
+    },
+    {
+      "provider": "Hugging Face",
+      "status": "found",
+      "note": "Free certified AI Agents Course"
+    },
+    {
+      "provider": "AWS",
+      "status": "found",
+      "note": "AWS Skill Builder free digital training; per-course badge terms vary"
+    },
+    {
+      "provider": "NVIDIA",
+      "status": "found",
+      "note": "Deep Learning Institute lists free self-paced courses; certificates on select courses"
+    }
+  ],
+  "opportunities": [
+    {
+      "provider": "Anthropic",
+      "title": "Anthropic Academy: Claude courses with official certificates",
+      "url": "https://anthropic.skilljar.com/",
+      "description": "Self-paced courses across AI fluency, Claude product training and developer deep dives on the API and Claude Code. Each course ends with a quiz and an official Anthropic certificate.",
+      "cost": "free",
+      "audience": "Open to all (email sign-up)",
+      "region": "Global"
+    },
+    {
+      "provider": "Microsoft / GitHub",
+      "title": "GitHub Copilot Fundamentals (Part 1 of 2) learning path",
+      "url": "https://learn.microsoft.com/en-us/training/paths/copilot/",
+      "description": "A nine-module path covering responsible AI, prompt engineering, Copilot Spaces and testing with Copilot. It is the official preparation for the GitHub Copilot (GH-300) certification.",
+      "cost": "free-learning-paid-exam",
+      "audience": "Beginner to intermediate developers",
+      "region": "Global"
+    },
+    {
+      "provider": "Google",
+      "title": "Introduction to Generative AI (with badge)",
+      "url": "https://www.skills.google/course_templates/536",
+      "description": "A 45-minute microlearning course explaining generative AI, how it differs from traditional machine learning, and the Google tools for building with it. Completion earns a shareable badge.",
+      "cost": "free",
+      "audience": "Open to all, no prerequisites",
+      "region": "Global"
+    },
+    {
+      "provider": "Hugging Face",
+      "title": "AI Agents Course (fundamentals and completion certificates)",
+      "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "description": "A hands-on course on building agents with smolagents, LangGraph and LlamaIndex. A fundamentals certificate follows Unit 1, and a full certificate is awarded for a benchmarked final project.",
+      "cost": "free",
+      "audience": "Developers with basic Python",
+      "region": "Global"
+    },
+    {
+      "provider": "AWS",
+      "title": "AWS Skill Builder free digital training",
+      "url": "https://skillbuilder.aws/",
+      "description": "The free tier includes self-paced courses on cloud and generative AI fundamentals. Check each course page for its digital badge terms before enrolling.",
+      "cost": "free",
+      "audience": "Open to all (AWS Builder ID)",
+      "region": "Global"
+    },
+    {
+      "provider": "NVIDIA",
+      "title": "Deep Learning Institute self-paced courses",
+      "url": "https://www.nvidia.com/en-us/training/self-paced-courses/",
+      "description": "A catalog of self-paced courses on generative AI, LLMs and accelerated computing, several of them free. Select courses award a certificate of competency.",
+      "cost": "free",
+      "audience": "Developers and data scientists",
+      "region": "Global"
+    }
+  ],
+  "watchlist": [
+    {
+      "provider": "Microsoft",
+      "title": "AI Skills Fest (free certification exam voucher)",
+      "url": "https://learn.microsoft.com/en-us/credentials/",
+      "note": "The 2026 edition ran 8–12 June and offered a 100% exam voucher. Watch for the next edition"
+    },
+    {
+      "provider": "Microsoft",
+      "title": "Applied Skills credentials",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/",
+      "note": "Lab-based credentials; assessment cost not stated on the official page this week, so verify before booking"
+    }
+  ]
+}
