@@ -16,6 +16,10 @@ $config = Get-Content -Raw (Join-Path $root "loop\config.json") | ConvertFrom-Js
 git pull --ff-only 2>&1 | Out-File -FilePath $log -Append -Encoding utf8
 
 $prompt = (Get-Content -Raw (Join-Path $root "loop\PROMPT.md")).Replace("{{DATE}}", $stamp)
+# A stale ANTHROPIC_API_KEY in the environment overrides the claude.ai login in headless mode
+# (401 "API key is invalid"). Drop it for this process only so the subscription login is used.
+Remove-Item Env:ANTHROPIC_API_KEY -ErrorAction SilentlyContinue
+
 $claude = (Get-Command claude -ErrorAction SilentlyContinue).Source
 if (-not $claude) { $claude = Join-Path $env:USERPROFILE ".local\bin\claude.exe" }
 
