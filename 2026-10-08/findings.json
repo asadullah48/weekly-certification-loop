@@ -1,0 +1,144 @@
+{
+  "week": "2026-10-08",
+  "budget": {
+    "searches": 5,
+    "fetches": 10
+  },
+  "providers_searched": [
+    {
+      "provider": "Microsoft",
+      "status": "found",
+      "note": "GitHub Copilot path on Microsoft Learn is live and free. The Azure AI Fundamentals certification now requires exam AI-901 (paid) and its page lists no free learning paths; a practice assessment is available on AI Skills Navigator"
+    },
+    {
+      "provider": "Google",
+      "status": "found",
+      "note": "Introduction to Generative AI course on Google Skills is live, free and awards a badge"
+    },
+    {
+      "provider": "GitHub Copilot",
+      "status": "found",
+      "note": "Official free preparation path on Microsoft Learn; the GH-300 exam itself is paid"
+    },
+    {
+      "provider": "xAI Grok",
+      "status": "none-official",
+      "note": "No official xAI certification found; not re-searched this week to stay within budget"
+    },
+    {
+      "provider": "DeepSeek",
+      "status": "none-official",
+      "note": "No official DeepSeek certification found; not re-searched this week to stay within budget"
+    },
+    {
+      "provider": "Ollama",
+      "status": "none-official",
+      "note": "No official Ollama certification or learning program found; not re-searched this week to stay within budget"
+    },
+    {
+      "provider": "Anthropic Claude",
+      "status": "found",
+      "note": "Anthropic Academy lists 24 courses, now including agent skills, subagents and Claude Cowork; completion certificates are mentioned on the page"
+    },
+    {
+      "provider": "Hugging Face",
+      "status": "found",
+      "note": "Agents Course and the newly listed MCP Course both offer free fundamentals and completion certificates"
+    },
+    {
+      "provider": "AWS",
+      "status": "found",
+      "note": "AWS free digital training lists over 900 self-paced courses and no-subscription microcredentials; skillbuilder.aws returned no readable content this run"
+    },
+    {
+      "provider": "NVIDIA",
+      "status": "found",
+      "note": "Deep Learning Institute offers free beginner courses; certificates are available on select courses only"
+    }
+  ],
+  "opportunities": [
+    {
+      "provider": "Hugging Face",
+      "title": "Model Context Protocol (MCP) Course",
+      "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+      "description": "A five-chapter course on the theory, SDKs and practice of the Model Context Protocol. A fundamentals certificate follows Unit 1, and a certificate of completion is awarded after the use case units.",
+      "cost": "free",
+      "audience": "Developers with basic AI and Python or TypeScript knowledge",
+      "region": "Global"
+    },
+    {
+      "provider": "AWS",
+      "title": "AWS free digital training and microcredentials",
+      "url": "https://aws.amazon.com/training/digital/",
+      "description": "Over 900 free self-paced digital courses covering AWS services at every level. Microcredentials validate hands-on skills through assessments in live AWS environments, with no subscription required.",
+      "cost": "free",
+      "audience": "Open to all skill levels",
+      "region": "Global"
+    },
+    {
+      "provider": "Anthropic",
+      "title": "Anthropic Academy: Claude courses with completion certificates",
+      "url": "https://anthropic.skilljar.com/",
+      "description": "Self-paced courses on Claude, the API, Model Context Protocol, agent skills, subagents and AI fluency for several audiences. The page states that completion certificates are provided.",
+      "cost": "free",
+      "audience": "Open to all (account sign-up)",
+      "region": "Global"
+    },
+    {
+      "provider": "Microsoft / GitHub",
+      "title": "GitHub Copilot Fundamentals (Part 1 of 2) learning path",
+      "url": "https://learn.microsoft.com/en-us/training/paths/copilot/",
+      "description": "A nine-module path covering responsible AI, prompt engineering, Copilot Spaces, working across environments and unit testing with Copilot. Completing the training is free; the related certification exam is paid.",
+      "cost": "free-learning-paid-exam",
+      "audience": "Beginner to intermediate developers",
+      "region": "Global"
+    },
+    {
+      "provider": "Google",
+      "title": "Introduction to Generative AI (with badge)",
+      "url": "https://www.skills.google/course_templates/536",
+      "description": "A 45-minute introductory microlearning course on generative AI concepts and the Google tools for building with it. The page offers a badge on completion.",
+      "cost": "free",
+      "audience": "Open to all, no prerequisites",
+      "region": "Global"
+    },
+    {
+      "provider": "Hugging Face",
+      "title": "AI Agents Course (fundamentals and completion certificates)",
+      "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "description": "A hands-on course on building AI agents with no deadline for certification. A fundamentals certificate requires Unit 1, and a completion certificate also requires a use case assignment and the final challenge.",
+      "cost": "free",
+      "audience": "Developers with basic Python",
+      "region": "Global"
+    },
+    {
+      "provider": "NVIDIA",
+      "title": "Deep Learning Institute self-paced courses",
+      "url": "https://www.nvidia.com/en-us/training/self-paced-courses/",
+      "description": "Many beginner self-paced courses are offered free and can be completed in a day or less. A certificate of competency is available on select courses.",
+      "cost": "free",
+      "audience": "Developers and data scientists",
+      "region": "Global"
+    }
+  ],
+  "watchlist": [
+    {
+      "provider": "Microsoft",
+      "title": "Microsoft Certified: Azure AI Fundamentals (exam AI-901)",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+      "note": "Replaces AI-900. The exam is paid and the page lists no free learning paths this week; a practice assessment is available after signing in to AI Skills Navigator"
+    },
+    {
+      "provider": "Microsoft",
+      "title": "AI Skills Fest (free certification exam voucher)",
+      "url": "https://learn.microsoft.com/en-us/credentials/",
+      "note": "The 2026 edition ran 8-12 June and offered a 100% exam voucher. Watch for the next edition"
+    },
+    {
+      "provider": "Google",
+      "title": "Beginner: Introduction to Generative AI learning path",
+      "url": "https://www.skills.google/paths/118",
+      "note": "Live with 4 activities; the page did not state cost or badge terms, so verify before listing"
+    }
+  ]
+}

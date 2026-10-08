@@ -17,6 +17,7 @@ Great learning programs appear and expire quietly. This repository is maintained
 
 | Week | Opportunities | Providers |
 |---|---:|---|
+| [2026-10-08](2026-10-08/README.md) | 7 | AWS, Anthropic, Google, Hugging Face, Microsoft / GitHub, NVIDIA |
 | [2026-10-01](2026-10-01/README.md) | 6 | AWS, Anthropic, Google, Hugging Face, Microsoft / GitHub, NVIDIA |
 
 📒 The full run-by-run log is in [progress.md](progress.md).
